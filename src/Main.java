@@ -16,6 +16,11 @@ public static void main(String[] args) {
     czytelnik1.zmniejszLiczbeWypozyczen();
     czytelnik1.wypiszDane();
 
+    Biblioteka biblioteka = new Biblioteka(0);
+    biblioteka.dodajksiazke(ksiazka1);
+
+
+
 
     }
 }
